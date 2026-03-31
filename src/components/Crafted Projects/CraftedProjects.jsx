@@ -7,7 +7,7 @@ const CraftedProjects = () => {
             title: "Product Landing + Conversion System",
             description: "Designed and delivered a conversion-focused landing experience with fast load times, SEO-ready structure, and crisp mobile layout. The build includes reusable UI blocks, analytics events, and clean handoff for marketing teams.",
             tags: ["Next.js", "SEO", "UI/UX", "Analytics"],
-            image: "/src/assets/project1.jpeg", // আপনার ইমেজের পাথ দিন
+            image: "/project1.jpeg", // আপনার ইমেজের পাথ দিন
             bg: "bg-orange-500"
         },
         {
@@ -15,7 +15,7 @@ const CraftedProjects = () => {
             title: "Multi-step Client Onboarding",
             description: "Built a guided onboarding flow with validation, progress tracking, and a minimal admin view. The experience reduces drop-off and improves activation with smart defaults and clear microcopy.",
             tags: ["React", "Forms", "Automation", "Dashboard"],
-            image: "/src/assets/project2.jpeg",
+            image: "/project2.jpg",
             // bg: "bg-cyan-500"
         },
         {
@@ -23,7 +23,7 @@ const CraftedProjects = () => {
             title: "Commerce Catalog + Search",
             description: "Developed a fast product catalog with category filters, smart search, and optimized image delivery. The layout keeps products discoverable on mobile and scales smoothly with large data sets.",
             tags: ["React", "Performance", "Filters", "Responsive"],
-            image: "/src/assets/project3.jpeg",
+            image: "/project3.jpeg",
             bg: "bg-cyan-500"
         },
         {
@@ -31,7 +31,7 @@ const CraftedProjects = () => {
             title: "Service Booking Workflow",
             description: "Crafted a scheduling experience with availability logic, instant confirmations, and webhook automation. Includes admin controls for managing slots and rescheduling requests.",
             tags: ["Scheduling", "Webhooks", "Integrations", "UX"],
-            image: "/src/assets/project4.jpeg",
+            image: "/project4.jpg",
             // bg: "bg-cyan-500"
         },
         {
@@ -39,7 +39,7 @@ const CraftedProjects = () => {
             title: "Ops Dashboard + Alerts",
             description: "Designed a compact operations dashboard with real-time metrics and alerting. Optimized for at-a-glance decisions with clear visual hierarchy and scalable component patterns",
             tags: ["Dashboard", "Realtime", "Monitoring", "Design System"],
-            image: "/src/assets/project5.jpeg",
+            image: "/project5.jpeg",
             // bg: "bg-cyan-500"
         }
     ];
