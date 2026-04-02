@@ -40,7 +40,7 @@ const LetsWork = () => {
                 <input 
                   type="email" 
                   placeholder="john@example.com" 
-                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-red-500 focus:border-transparent outline-none transition-all bg-gray-50"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-red-500 focus:border-transparent outline-none transition-all bg-gray-50" required
                 />
               </div>
 
