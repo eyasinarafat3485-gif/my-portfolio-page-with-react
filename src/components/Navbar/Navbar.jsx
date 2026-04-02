@@ -47,7 +47,7 @@ const Navbar = () => {
             {/* <img src="" alt="" /> */}
             {/* <button  className='bg-orange-600 rounded-[40%] md:rounded-[47%] p-1 -m-2 text-white font-bold'>EA</button> */}
             <a className='bg-red-500 rounded-full p-2 -m-2 w-10 h-10 text-white font-bold' href=''>EA </a>
-            <p className='text-xl font-bold'>EYASIN ARAFAT</p>
+            <a href='' className='text-xl font-bold cursor-pointer'>EYASIN ARAFAT</a>
             </div>
             
           <span className='flex' onClick={() =>setOpen (!open)}> 

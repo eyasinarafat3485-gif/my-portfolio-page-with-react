@@ -1,9 +1,10 @@
 import React from 'react';
 // import facebook from '../../assets/icons8-facebook-24.png'
 // import linkedin from '../../assets/linkedin-161-svgrepo-com.svg'
-import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 import myImg from '../../assets/Eyasin portfolio.png'
 import { Download, ArrowRight } from 'lucide-react';
+import { IoLogoWhatsapp } from 'react-icons/io';
 
 const Banner = () => {
     return (
@@ -17,9 +18,9 @@ const Banner = () => {
                 </div>
 
                 <div className='text-center md:text-left md:w-full md:items-start mx-auto md:mx-0 '>
-                    <h1 className='text-[30px] md:text-5xl font-bold '>Full Stack Developer In Bangladesh</h1>
+                    <h1 className='text-3xl md:text-5xl font-bold '>Full Stack Developer In Bangladesh</h1>
                 </div>
-                <div className='flex gap-5 text-center md:text-left md:w-full w-[80%] md:items-start mx-auto'>
+                <div className='flex gap-4 text-center md:text-left md:w-full w-[80%] md:items-start mx-auto'>
                     <p className='font-semibold'>Connect :</p>
                     <div className='flex text-center gap-5 align-center '>
                         <a href="https://www.linkedin.com/in/md-eyasin-arafat-webdev"><FaLinkedin className='transition: 0.3s w-8 h-8 p-1.5 rounded-full border border-gray-500 bg-gray-200 hover-3d hover:bg-red-500 hover:text-white'></FaLinkedin    ></a>
@@ -27,6 +28,8 @@ const Banner = () => {
                         <a href="https://github.com/eyasinarafat3485-gif"><FaGithub className='transition: 0.3s w-8 h-8 p-1.5 rounded-full border border-gray-500 bg-gray-200 hover-3d hover:bg-red-500 hover:text-white'></FaGithub></a>
 
                         <a href="https://www.facebook.com/share/14QVNWQSDuN/"><FaFacebook className='transition: 0.3s w-8 h-8 p-1.5 rounded-full border border-gray-500 bg-gray-200 hover-3d hover:bg-red-500 hover:text-white'></FaFacebook> </a>
+
+                         <a href="https://api.whatsapp.com/qr/2KWLCN3HKN3BI1?autoload=1&app_absent=0"><IoLogoWhatsapp  className='transition: 0.3s w-8 h-8 p-1.5 rounded-full border border-gray-500 bg-gray-200 hover-3d hover:bg-red-500 hover:text-white'></IoLogoWhatsapp > </a>
                     </div>
                 </div>
             </div>

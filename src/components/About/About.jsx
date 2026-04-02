@@ -6,7 +6,7 @@ const AboutMe = () => {
 
   const introductoryText = " Hi Everyone, This is Eyasin Arafat — a Full Stack Developer. My love for technology goes beyond profession; it is a part of who I am. On the frontend, I weave responsive and vibrant user interfaces using React, TypeScript, and Tailwind CSS—where beauty is not just seen, but felt."
 
-  const hiddenText = "On the backend, I build a strong foundation with Node.js and Express.js, creating a secure and high-performance ecosystem that brings together RESTful APIs, GraphQL, JWT authentication, Redis caching, and WebSockets. I don't just write code—I fight against threats like XSS, control traffic with rate limiting, and use DevOps tools like Docker to prepare applications for takeoff on a production-ready platform. I ensure an SEO-friendly structure in every project, helping them rank higher in search engines. To me, every project is like a living entity—where the elegance of the frontend and the power of the backend come together in perfect harmony. My goal is not just to build applications, but to create fast, secure, and user-friendly web experiences that touch people's lives, grow businesses, and make the digital world more beautiful, faster, and more reliable. <br> I focus on clean architecture, smooth performance, and a polished user experience. Every line of code I write is aimed at solving real-world problems with reliability, security, and speed."
+  const hiddenText = " On the backend, I build a strong foundation with Node.js and Express.js, creating a secure and high-performance ecosystem that brings together RESTful APIs, GraphQL, JWT authentication, Redis caching, and WebSockets. I don't just write code—I fight against threats like XSS, control traffic with rate limiting, and use DevOps tools like Docker to prepare applications for takeoff on a production-ready platform. I ensure an SEO-friendly structure in every project, helping them rank higher in search engines. To me, every project is like a living entity—where the elegance of the frontend and the power of the backend come together in perfect harmony. My goal is not just to build applications, but to create fast, secure, and user-friendly web experiences that touch people's lives, grow businesses, and make the digital world more beautiful, faster, and more reliable. <br> I focus on clean architecture, smooth performance, and a polished user experience. Every line of code I write is aimed at solving real-world problems with reliability, security, and speed."
 
   const infoData = [
     { label: "Name", value: "Eyasin Arafat" },
@@ -17,8 +17,8 @@ const AboutMe = () => {
   ];
 
   return (
-    <section className="w-[92%] mx-auto shadow-lg bg-slate-50 rounded-3xl md:mt-0 mt-10">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-start">
+    <section className="w-[92%] mx-auto shadow-lg bg-gradient-to-br from-pink-100 via-slate-100 rounded-3xl md:mt-0 mt-10">
+      <div className="w-full mx-auto flex flex-col lg:flex-row gap-12 items-start">
 
         {/* Left (Image & Timeline) */}
         <div className="w-full lg:w-1/3 flex flex-col items-center lg:items-start ">
@@ -50,15 +50,12 @@ const AboutMe = () => {
         </div>
 
         {/* Right (Content) */}
-        <div className="w-full lg:w-2/3 md:pr-10 pt-5 ">
-          <h2 className="text-3xl font-extrabold text-[#0F172A]  text-center md:text-left p-5 md:pl-4">
-            About Me— <span className="text-gray-700 decoration-red-500 ">Full Stack Web Developer</span>
-          </h2>
-
-          {/* Underline*/}
-          <div className="h-0.5 mb-4 md:mb-8 relative pl-4 ">
-            <div className="absolute top-0 w-[90%] md:w-[74%] h-0.5 bg-red-500 md:pr-5 "></div>
+        <div className="w-full lg:w-2/3 md:pr-10 ">
+          <div className="w-fit">
+            <h2 className="text-3xl font-extrabold text-[#0F172A] text-center md:text-left p-5 md:pl-4">About Me— <span className="text-gray-700 decoration-red-500 ">Full Stack Web Developer</span></h2>
+            <div className="h-0.5 mb-4 md:mb-8 bg-red-500 w-[92%] mx-auto "></div>
           </div>
+
           <div className="text-gray-600 leading-relaxed space-y-3 md:space-y-6 text-lg text-justify p-5">
             <p className='text-[16px] leading-relaxed'>
               {introductoryText}

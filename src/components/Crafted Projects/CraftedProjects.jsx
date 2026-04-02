@@ -1,4 +1,5 @@
 import React from 'react';
+import { MotionConfigContext } from "framer-motion";
 
 const CraftedProjects = () => {
     const projects = [
@@ -42,18 +43,21 @@ const CraftedProjects = () => {
             image: "/project5.jpeg",
             // bg: "bg-cyan-500"
         }
-    ];
+    ]
     return (
-        <section className="py-16 px-6 bg-slate-50 w-[92%] mx-auto md:mt-20 mt-10 rounded-3xl">
+       
+        <section className="py-16 px-6 bg-gradient-to-br from-pink-100 via-slate-100 w-[92%] mx-auto md:mt-20 mt-10 rounded-3xl animat">
             {/* Header Part */}
             <div className="mb-12">
-                <p className="text-xs font-bold tracking-widest uppercase text-gray-800">My Service</p>
-                <h2 className="text-4xl font-bold mt-2">
+          
+                <p className="text-[15px] font-bold tracking-widest uppercase text-gray-800">My Service</p>
+                <h2 className="text-3xl md:text-4xl font-bold mt-2">
                     Crafted <span className="text-red-500">Projects</span>
                 </h2>
                 <p className="text-gray-500 mt-4 max-w-2xl text-[18px]">
                     A focused collection of MERN stack and full-stack web development projects. Each build is shaped around clarity, speed, and business goals — with deliberate UI, strong performance, and clean handoff.
                 </p>
+                
             </div>
 
             {/* Projects List */}
@@ -87,9 +91,13 @@ const CraftedProjects = () => {
                         <img src={project.image} alt="ui" className=" w-full object-cover"/>
                         </div>
                     </div>
+                    
                 ))}
+                
             </div>
+            
         </section>
+        
     );
 };
 
