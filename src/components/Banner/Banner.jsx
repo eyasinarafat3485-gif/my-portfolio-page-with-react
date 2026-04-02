@@ -20,7 +20,7 @@ const Banner = () => {
                 <div className='text-center md:text-left md:w-full md:items-start mx-auto md:mx-0 '>
                     <h1 className='text-3xl md:text-5xl font-bold '>Full Stack Developer In Bangladesh</h1>
                 </div>
-                <div className='flex gap-4 text-center md:text-left md:w-full w-[80%] md:items-start mx-auto'>
+                <div className='flex gap-4 text-center md:text-left md:w-full items-center w-[80%] md:items-start mx-auto'>
                     <p className='font-semibold'>Connect :</p>
                     <div className='flex text-center gap-3 md:gap-4 align-center '>
                         <a href="https://www.linkedin.com/in/md-eyasin-arafat-webdev"><FaLinkedin className='transition: 0.3s w-8 h-8 p-1.5 rounded-full border border-gray-500 bg-gray-200 hover-3d hover:bg-red-500 hover:text-white'></FaLinkedin    ></a>
