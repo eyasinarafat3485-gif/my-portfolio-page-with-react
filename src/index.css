@@ -1,0 +1,31 @@
+/* .custom-border-animation {
+  border: 1.5px solid #f3f4f6; 
+  transition: border-color 0s ease; 
+}
+
+.custom-border-animation::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid transparent;
+  border-radius: 16px; 
+  transition: all 1s ease; 
+  box-sizing: border-box;
+}
+
+.custom-border-animation:hover::before {
+  border-top-color: #ef4444;    
+  border-right-color: #ef4444;
+  border-bottom-color: #ef4444;
+  border-left-color: #ef4444;
+  
+  clip-path: inset(0 0 0 0); 
+}
+
+.custom-border-animation::before {
+  clip-path: inset(0 100% 100% 0); 
+}
+ */
