@@ -5,6 +5,7 @@ import { FaFacebook, FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 import myImg from '../../assets/Eyasin portfolio.png'
 import { Download, ArrowRight } from 'lucide-react';
 import { IoLogoWhatsapp } from 'react-icons/io';
+import SkillsCarousel from './skills';
 
 const Banner = () => {
     return (
@@ -51,7 +52,11 @@ const Banner = () => {
                     <button className="btn btn-outline  bg-white text-black rounded-full hover:border-2 border-red-400"><Download></Download> Download CV</button>
                 </div>
             </div>
+            
 
+            </div>
+            <div>
+                <SkillsCarousel></SkillsCarousel>
             </div>
         </main>
 
